@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "234097354646",
+    "project_id": "shelfswap-project",
+    "storage_bucket": "shelfswap-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234097354646:android:494ea3a97a5a79b2305fb7",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIikWuPKQYXWWBYz9bkyTPGgmK4lPJcf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

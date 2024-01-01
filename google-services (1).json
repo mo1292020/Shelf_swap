@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "360766641195",
+    "project_id": "test-e09f1",
+    "storage_bucket": "test-e09f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360766641195:android:da3514b21a3891632b866e",
+        "android_client_info": {
+          "package_name": "com.company.MyApplicationtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKkNxwwzhSpz8GQovz_7iWEU6UNF826E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

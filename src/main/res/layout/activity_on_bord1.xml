@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBord1">
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <RelativeLayout
+        android:id="@+id/splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:layout_editor_absoluteX="-38dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <ImageView
+            android:id="@+id/img1_onbord1"
+            android:layout_width="313dp"
+            android:layout_height="422dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/onbord1"
+            />
+        <RadioGroup
+            android:id="@+id/radio_group_splash"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/img1_onbord1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/radio1_onbord"
+                android:text="onbord1"
+                android:layout_width="27dp"
+                android:layout_height="25dp"
+                android:checked="true"
+                android:buttonTint="@color/orange"
+                />
+            <RadioButton
+                android:id="@+id/radio2_onbord"
+                android:text="onbord2"
+                android:layout_width="27dp"
+                android:layout_height="25dp"
+                android:buttonTint="@color/orange"
+                />
+            <RadioButton
+                android:id="@+id/radio3_onbord"
+                android:text="onbord3"
+                android:layout_width="27dp"
+                android:layout_height="25dp"
+                android:buttonTint="@color/orange"
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/onbord1_next"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Next"
+            android:fontFamily="sans-serif-medium"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/orange"
+            />
+
+        <Button
+            android:id="@+id/onbord1_skip"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Skip"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-medium"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/background"
+            android:elevation="0dp"
+            android:stateListAnimator="@null"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

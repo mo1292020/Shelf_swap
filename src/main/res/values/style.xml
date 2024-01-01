@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="shelf_swap">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#F66317</item>
+    </style>
+
+
+</resources>
